@@ -14,7 +14,7 @@ class first_name{
 
 class full_name{
     public $fullname ="";
-    function __construct(first_name $obj1)
+    function __construct(first_name $obj1)                    // Dependency Injection being made
     {
         $this->fullname =$obj1->fname."Rastogi";
     }
